@@ -1,0 +1,20 @@
+# Ignorar carpetas de dependencias y archivos de log
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignorar archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar directorios de construcción y caches (para React)
+myprojectReactCompleto/build/
+myprojectReactCompleto/dist/
+
+# Ignorar directorios de construcción de Java (para Spring Boot)
+projectbackendCompleto/target/
+projectbackendCompleto/*.class
+
+# Ignorar archivos de entorno y configuraciones locales
+**/.env
+**/.vscode/
