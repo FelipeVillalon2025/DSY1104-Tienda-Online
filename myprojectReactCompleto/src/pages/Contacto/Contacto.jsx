@@ -1,8 +1,7 @@
+import  Navbar  from "../../componentes/Navbar/Navbar";
 
-import { Navbar } from "../../componentes/Navbar/Navbar";
 
-
-export function Contacto(){
+export default function Contacto(){
     
     return(
             <>

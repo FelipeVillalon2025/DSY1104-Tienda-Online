@@ -1,6 +1,7 @@
-import { Navbar } from "../../componentes/Navbar/Navbar";
+import Navbar from "../../componentes/Navbar/Navbar";
 
-export function Home(){
+// 🟢 CAMBIO: Usamos export default para que App.jsx lo reconozca
+export default function Home(){ 
     
     return(
         <>

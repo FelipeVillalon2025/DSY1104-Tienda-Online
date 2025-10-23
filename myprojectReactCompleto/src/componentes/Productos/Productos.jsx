@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Productos.css';
 
-export function Productos() {
+export default function Productos() {
 
     const [productos, setProductos] = useState([]);
  

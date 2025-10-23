@@ -13,7 +13,7 @@ myprojectReactCompleto/dist/
 
 # Ignorar directorios de construcción de Java (para Spring Boot)
 projectbackendCompleto/target/
-projectbackendCompleto/*.class
+projectbackendCompleto/*.class  
 
 # Ignorar archivos de entorno y configuraciones locales
 **/.env

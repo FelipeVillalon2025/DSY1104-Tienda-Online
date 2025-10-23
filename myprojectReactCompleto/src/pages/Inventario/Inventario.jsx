@@ -1,8 +1,8 @@
-import { Navbar } from "../../componentes/Navbar/Navbar";
-import { Productos } from "../../componentes/Productos/Productos";
+import  Navbar  from "../../componentes/Navbar/Navbar";
+import  Productos  from "../../componentes/Productos/Productos";
 
 
-export function Inventario(){
+export default function Inventario(){
 
     return (
 

@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { Navbar } from '../Navbar/Navbar';
+import  Navbar  from '../Navbar/Navbar';
 
-export function EditarProd() {
+export default function EditarProd() {
     const { id } = useParams();
     const navigate = useNavigate();
     const productoId = parseInt(id);
